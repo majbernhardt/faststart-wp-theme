@@ -1,0 +1,24 @@
+{
+    "name": "faststart-theme",
+    "version": "1.0.0",
+    "description": "Шаблон для быстрого начала разработки темы для WordPress",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/majbernhardt/faststart-theme.git"
+    },
+    "keywords": [
+        "Быстрое начало",
+        "создание темы wordpress",
+        "быстрое создание темы"
+    ],
+    "author": "https://github.com/majbernhardt",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/majbernhardt/faststart-theme/issues"
+    },
+    "homepage": "https://github.com/majbernhardt/faststart-theme#readme"
+}
