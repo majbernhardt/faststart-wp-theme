@@ -46,3 +46,4 @@ $(document).ready(function() {
     });
 });
 </script>
+<?php the_field('metrica', 'option'); ?>
