@@ -20,6 +20,9 @@ if( function_exists('acf_add_options_page') ) {
 	));	
 }
 
+// Отображение заголовка AIOSEO
+add_theme_support( 'title-tag' );
+
 // Удаляем лишние пункты меню
 add_action('admin_menu', 'remove_menus');
 function remove_menus() {
