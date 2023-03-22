@@ -14,7 +14,7 @@
         "@babel/core": "^7.14.2",
         "@babel/preset-env": "^7.14.2",
         "@fancyapps/ui": "^4.0.25",
-        "browser-sync": "^2.26.14",
+        "caniuse-lite": "^1.0.30001469",
         "chalk": "^4.1.1",
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "^8.0.0",
@@ -39,7 +39,6 @@
         "imagemin-jpeg-recompress": "^7.0.0",
         "imagemin-pngquant": "^9.0.2",
         "require-dir": "^1.2.0",
-        "sweetalert2": "^11.4.1",
         "swiper": "^8.0.6",
         "vinyl-ftp": "^0.6.1"
     },

@@ -1,0 +1,14 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --error: #FF5C5C;
+}
+
+// Colors
+$white: #ffffff  !default;
+$black: #000000  !default;
+$error: #FF5C5C !default;
+
+// Transitions
+$btnTransition: .15s;
+$blockTransition: .25s;

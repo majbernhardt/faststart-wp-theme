@@ -1,7 +1,7 @@
 const plugins = [
-    "node_modules/swiper/swiper.min.css",
-    "node_modules/sweetalert2/dist/sweetalert2.css",
-    "node_modules/@fancyapps/ui/dist/fancybox.css",
+    "node_modules/swiper/swiper.scss",
+    "node_modules/swiper/modules/effect-fade/effect-fade.scss",
+    "node_modules/@fancyapps/ui/src/Fancybox/Fancybox.scss"
 ];
 
 const { src, dest } = require("gulp");

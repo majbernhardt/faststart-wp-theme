@@ -1,1 +1,1 @@
-{"version":3,"sources":["footer.css"],"names":[],"mappings":"AAAA","file":"../scss/style.min.css","sourcesContent":[]}
+{"version":3,"sources":["mixins/_vars.scss"],"names":[],"mappings":"AAAA,MACI,QAAA,QACA,QAAA,QACA,QAAA","file":"../scss/style.min.css","sourcesContent":[":root {\r\n    --white: #ffffff;\r\n    --black: #000000;\r\n    --error: #FF5C5C;\r\n}\r\n\r\n// Colors\r\n$white: #ffffff  !default;\r\n$black: #000000  !default;\r\n$error: #FF5C5C !default;\r\n\r\n// Transitions\r\n$btnTransition: .15s;\r\n$blockTransition: .25s;"]}
