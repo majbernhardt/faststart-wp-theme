@@ -1,0 +1,6 @@
+@mixin btnTransition {
+    transition: $btnTransition;
+}
+@mixin blockTransition {
+    transition: $blockTransition;
+}

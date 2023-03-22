@@ -1,0 +1,61 @@
+/* Стили для гутенберга */
+* {
+    outline: none !important;
+    box-sizing: border-box;
+}
+.edit-post-visual-editor__post-title-wrapper {
+    max-width: 1410px !important;
+    margin: 15px auto !important;
+}
+.wp-block {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+	max-width: 1410px !important;
+    margin: 15px auto !important;
+}
+.wp-block[data-align="wide"] { /* по ширине содержимого */
+    font-family: 'IBM Plex Sans', sans-serif !important;
+	max-width: 1410px !important;
+    margin: 15px auto !important;
+}
+.wp-block[data-align="full"] { /* во всю ширину */
+    font-family: 'IBM Plex Sans', sans-serif !important;
+	max-width: 1410px !important;
+    margin: 15px auto !important;
+}
+.interface-interface-skeleton__secondary-sidebar, .interface-interface-skeleton__sidebar {
+    width: 400px !important;
+}
+body .edit-post-layout.is-sidebar-opened .edit-post-plugin-sidebar__sidebar-layout, body .edit-post-layout.is-sidebar-opened .edit-post-sidebar {
+    width: 100% !important;
+}
+.wp-core-ui .button-primary {
+    background: #2271b1 !important;
+}
+.container {
+    width: 100%;
+    max-width: 1420px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3,
+h4, h5, h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+/* Для товаров */
+div#woocommerce-product-data {
+    margin: 24px 0;
+    border-top: 1px solid #c3c4c7;
+    border-bottom: 1px solid #c3c4c7;
+}
+#woocommerce-coupon-data .panel-wrap, #woocommerce-product-data .panel-wrap, .woocommerce .panel-wrap {
+    padding: 0 24px;
+}

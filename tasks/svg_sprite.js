@@ -6,7 +6,7 @@ const svgmin = require('gulp-svgmin');
 const sprite = require('gulp-svg-sprite');
 
 module.exports = function svg_sprite() {
-	return src('src/svg/**/*.svg')
+	return src('assets/svg/**/*.svg')
 		.pipe(svgmin({
 			plugins: [{
 					removeComments: true
@@ -23,5 +23,5 @@ module.exports = function svg_sprite() {
 				}
 			}
 		}))
-		.pipe(dest('src/img'))
+		.pipe(dest('assets/img'))
 }
